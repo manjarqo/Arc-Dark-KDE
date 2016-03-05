@@ -10,6 +10,7 @@ On repository available:
 # Recommends
 
 [Arc Dark GTK Theme](https://github.com/horst3180/arc-theme)
+
 [Papirus Icon Theme](https://github.com/varlesh/papirus-suite/tree/master/kde-pack/icons)
 
 # Install
