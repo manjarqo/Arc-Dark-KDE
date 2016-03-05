@@ -14,7 +14,18 @@ On repository available:
 [Papirus Icon Theme](https://github.com/varlesh/papirus-suite/tree/master/kde-pack/icons)
 
 # Install
+
+**For Archlinux, Manjaro, Netrunner Rolling, Antergos (AUR):**
+
+```
+yaourt -S arc-dark-suite-git
+```
+
+**For other distros:**
+
 ```
 git clone https://github.com/varlesh/Arc-Dark-KDE.git
 cp -R Arc-Dark-KDE/{aurorae,color-schemes,plasma} ~/.local/share/
 ```
+
+Big thx **FadeMind** for PKGBUILD :)
