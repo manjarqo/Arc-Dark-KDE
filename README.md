@@ -5,6 +5,7 @@ On repository available:
 - Aurorae theme
 - Color scheme
 - Yakuake skin
+- Chromium theme
 
 ![Screenshot](preview.png)
 ![Screenshot](yakuake.png)
