@@ -7,6 +7,7 @@ On repository available:
 - Yakuake skin
 
 ![Screenshot](preview.png)
+![Screenshot](yakuake.png)
 
 # Recommends
 
