@@ -4,6 +4,7 @@ On repository available:
 - Plasma theme
 - Aurorae theme
 - Color scheme
+- Yakuake skin
 
 ![Screenshot](preview.png)
 
@@ -25,7 +26,7 @@ yaourt -S arc-dark-suite-git
 
 ```
 git clone https://github.com/varlesh/Arc-Dark-KDE.git
-cp -R Arc-Dark-KDE/{aurorae,color-schemes,plasma} ~/.local/share/
+cp -R Arc-Dark-KDE/{aurorae,color-schemes,plasma,yakuake} ~/.local/share/
 ```
 
 Big thx **FadeMind** for PKGBUILD :)
