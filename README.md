@@ -28,7 +28,7 @@ yaourt -S arc-dark-suite-git
 
 ```
 git clone https://github.com/varlesh/Arc-Dark-KDE.git
-cp -R Arc-Dark-KDE/{aurorae,color-schemes,plasma,yakuake} ~/.local/share/
+cp -R Arc-Dark-KDE/{aurorae,color-schemes,plasma,konsole,yakuake} ~/.local/share/
 ```
 
 Big thx **FadeMind** for PKGBUILD :)
