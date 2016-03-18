@@ -5,6 +5,7 @@ On repository available:
 - Aurorae theme
 - Color scheme
 - Yakuake skin
+- Konsole colorscheme
 - Chromium theme
 
 ![Screenshot](preview-plasma5.png)
