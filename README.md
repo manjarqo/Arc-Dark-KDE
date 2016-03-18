@@ -7,7 +7,7 @@ On repository available:
 - Yakuake skin
 - Chromium theme
 
-![Screenshot](preview.png)
+![Screenshot](preview-plasma5.png)
 ![Screenshot](yakuake.png)
 
 # Recommends
