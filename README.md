@@ -7,7 +7,7 @@ On repository available:
 - Yakuake skin
 - Konsole colorscheme
 
-![Screenshot](preview-plasma5.png)
+![Screenshot](preview.png)
 ![Screenshot](yakuake.png)
 
 # Recommends
