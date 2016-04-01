@@ -33,10 +33,11 @@ git clone https://github.com/varlesh/Arc-Dark-KDE.git
 cp -R Arc-Dark-KDE/{aurorae,color-schemes,plasma,konsole,yakuake} ~/.local/share/
 ```
 
-# Fix color menubar on GTK 2
+# Fix color menubar on GTK2/GTK3
 If you use GTK engine for KDE style, you can fix colors for menubar:
 ```
 sudo sed -i 's|2f343f|383c4a|g' /usr/share/themes/Arc-Dark/gtk-2.0/menubar-toolbar/menubar-toolbar-dark.rc
+sudo sed -i 's|2f343f|383c4a|g' /usr/share/themes/Arc-Dark/gtk-3.0/gtk.css
 sudo mogrify +level-colors "#383c4a" /usr/share/themes/Arc-Dark/gtk-2.0/menubar-toolbar/menubar-dark.png
 ```
 
