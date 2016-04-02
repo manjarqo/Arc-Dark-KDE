@@ -30,15 +30,14 @@ Big thx [FadeMind](https://github.com/FadeMind) for PKGBUILD :)
 
 ```
 git clone https://github.com/varlesh/Arc-Dark-KDE.git
-cp -R Arc-Dark-KDE/{aurorae,color-schemes,plasma,konsole,yakuake} ~/.local/share/
+sudo cp -R Arc-Dark-KDE/{aurorae,color-schemes,plasma,konsole,yakuake} /usr/share/
+sudo chmod -R 755 /usr/share/{aurorae,color-schemes,plasma,konsole,yakuake}
 ```
 
 # Fix color menubar on GTK
-If you use GTK engine for KDE style, you can fix colors for menubar:
+If you use GTK engine, you can add Bash alias *fix-menubar* for fix colors on menubar:
 ```
-sudo sed -i 's|2f343f|383c4a|g' /usr/share/themes/Arc-Dark/gtk-2.0/menubar-toolbar/menubar-toolbar-dark.rc
-sudo sed -i 's|2f343f|383c4a|g' /usr/share/themes/Arc-Dark/gtk-3.0/gtk.css
-sudo mogrify +level-colors "#383c4a" /usr/share/themes/Arc-Dark/gtk-2.0/menubar-toolbar/menubar-dark.png
+echo 'alias fix-menubar="sudo sh /usr/share/plasma/desktoptheme/Arc-Dark/fix-menubar.sh"' >> ~/.bashrc
 ```
 
 # Extra install
