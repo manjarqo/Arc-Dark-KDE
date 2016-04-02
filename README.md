@@ -35,9 +35,14 @@ sudo chmod -R 755 /usr/share/{aurorae,color-schemes,plasma,konsole,yakuake}
 ```
 
 # Fix color menubar on GTK
-If you use GTK engine, you can add Bash alias *fix-menubar* for fix colors on menubar:
+If you using Arc-Dark GTK theme, you can fix colors for menubar via running bash script:
 ```
-echo 'alias fix-menubar="sudo sh /usr/share/plasma/desktoptheme/Arc-Dark/fix-menubar.sh"' >> ~/.bashrc
+sudo bash /usr/share/plasma/desktoptheme/Arc-Dark/fix-menubar.sh
+```
+
+Or add bash alias *fix-menubar*:
+```
+echo 'alias fix-menubar="sudo bash /usr/share/plasma/desktoptheme/Arc-Dark/fix-menubar.sh"' >> ~/.bashrc
 ```
 
 # Extra install
