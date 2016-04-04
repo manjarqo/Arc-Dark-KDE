@@ -6,6 +6,7 @@ On repository available:
 - Color scheme
 - Yakuake skin
 - Konsole colorscheme
+- QtCurve style
 
 ![Screenshot](preview.png)
 ![Screenshot](yakuake.png)
@@ -30,8 +31,8 @@ Big thx [FadeMind](https://github.com/FadeMind) for PKGBUILD :)
 
 ```
 git clone https://github.com/varlesh/Arc-Dark-KDE.git
-sudo cp -R Arc-Dark-KDE/{aurorae,color-schemes,plasma,konsole,yakuake} /usr/share/
-sudo chmod -R 755 /usr/share/{aurorae,color-schemes,plasma,konsole,yakuake}
+sudo cp -R Arc-Dark-KDE/{aurorae,color-schemes,plasma,konsole,yakuake,QtCurve} /usr/share/
+sudo chmod -R 755 /usr/share/{aurorae,color-schemes,plasma,konsole,yakuake,QtCurve}
 ```
 
 # Fix color menubar on GTK
