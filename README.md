@@ -8,7 +8,15 @@ On repository available:
 - Konsole colorscheme
 - QtCurve style
 
-![Screenshot](preview.png)
+# Preview
+
+Use GTK style
+![Screenshot](preview-gtk.png)
+
+Use QtCurve style
+![Screenshot](preview-qtcurve.png)
+
+Yakuake skin
 ![Screenshot](yakuake.png)
 
 # Recommends
