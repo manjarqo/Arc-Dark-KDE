@@ -11,13 +11,7 @@ On repository available:
 # Preview
 
 Use GTK style
-![Screenshot](preview-gtk.png)
-
-Use QtCurve style
-![Screenshot](preview-qtcurve.png)
-
-Yakuake skin
-![Screenshot](yakuake.png)
+![Screenshot](preview.png)
 
 # Recommends
 
