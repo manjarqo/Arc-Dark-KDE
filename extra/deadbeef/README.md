@@ -1,5 +1,4 @@
 # DeaDBeeF style for Arc Dark KDE
-Only for x86_64
 
 ![Screenshot](deadbeef-preview.png)
 
